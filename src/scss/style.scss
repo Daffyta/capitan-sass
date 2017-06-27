@@ -1,0 +1,52 @@
+@import "grid";
+@import "variables";
+
+body , html {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#header {
+  background: $background-principal;
+  color: $text-light;
+  height: 100px;
+  padding: 1%;
+}
+
+ul {
+  color: $text-light;
+  width: 100%;
+  padding: 1%;
+
+  li {
+    list-style: none;
+    background: $backgroud-secundario;
+    margin-top: 1%;
+    padding: 6%;
+    &:hover {
+      background: $background-principal;
+    }
+  }
+}
+
+#asistencia {
+  ol{
+    padding: 0 6%;
+  }
+}
+
+.aside {
+  background: $backgroud-secundario;
+  color: $text-light;
+  text-align: center;
+  padding: 6%;
+}
+
+#footer {
+  background: $backgroud-secundario;
+  color: $text-light;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
