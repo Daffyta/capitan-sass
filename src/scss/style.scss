@@ -50,3 +50,23 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+
+@media only screen and (max-width: 1024px){
+  .col-3 {
+    width: 33.3333%;
+  }
+  .col-6 {
+    width: 66.6666%;
+  }
+  #aside {
+    width: 100%;
+  }
+}
+
+@media only screen and ( max-width: 480px ) {
+  .col-3 , .col-6 {
+    width: 100%;
+  }
+
+}
